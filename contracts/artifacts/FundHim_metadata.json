@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FundHim.sol": "FundHim"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FundHim.sol": {
+			"keccak256": "0xfc05069005ebba38349729497d4ff9f06f7d1d36934ee489ba35841e17af47b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d4d52d1efbd21decd337fb1d3d48124dbc5cef69e7ef2736bbb8547d060814b",
+				"dweb:/ipfs/QmSgi24xMSquLJRiKKMG8kMiQ1e92hrQTSv1HvruPmR4kT"
+			]
+		}
+	},
+	"version": 1
+}
