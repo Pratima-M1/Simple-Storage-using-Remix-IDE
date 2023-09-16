@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+//least restricted license identifier
 pragma solidity 0.8.8;
 contract SimpleStorage{
     //boolean,uint,int,address,bytes
@@ -33,8 +34,9 @@ contract SimpleStorage{
   }
 
  function retrieve () public view returns (uint256){
-     
+     //view -function can be read only ,we cannot modifiy
      return favNumber;
+     
     
  }
 
