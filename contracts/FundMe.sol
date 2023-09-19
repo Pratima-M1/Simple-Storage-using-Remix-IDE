@@ -1,7 +1,8 @@
 //Using this contract , we can send ETH or withdraw
 // SPDX-License-Identifier: MIT
 pragma solidity  ^0.8.8;
-import "./PriceConverter.sol";
+import "./PriceConverter.sol";//importing AggregatorV3Interface.sol from a library function 
+//import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol"//importing from root directory
 error NotOwner();
 contract FundMe{
     using PriceConverter for uint256;
@@ -13,6 +14,7 @@ contract FundMe{
     constructor(){
        i_owner=msg.sender;
     }
+    //in order to make a function payable we have to declare it payable
     function fund()  public payable {
     
               require(msg.value.getConversionRate()>=minimumUSD,"not enough money!");
